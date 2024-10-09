@@ -1,0 +1,255 @@
+/* laptop */
+@media screen and (max-width:1366px) {}
+
+
+
+/* mobile */
+@media screen and (max-width:765px) {
+
+    /* header */
+    .nav-links {
+        display: none;
+    }
+
+    .nav-click {
+        display: block;
+    }
+
+    .nav-click i {
+        font-size: 1.3rem;
+        color: #094EAB;
+    }
+
+    /* bg section */
+
+    .bg-section {
+        height: 25vh;
+    }
+
+    .bg-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .bg-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .bg-content p {
+        display: none;
+    }
+
+    .bg-content .bg-btn button {
+        display: none;
+    }
+
+    /* service */
+
+    .service {
+        padding: 40px 0px;
+    }
+
+    .services-box {
+        height: 250px;
+        box-shadow: 0px 0px 10px #3333334c;
+        margin-bottom: 20px;
+    }
+
+    .services-box img {
+        width: 85px;
+    }
+
+    .services-box h3 {
+        font-size: 1.4rem;
+    }
+
+    .services-box p {
+        font-size: 0.9rem;
+        width: 300px;
+    }
+
+
+    /* family */
+
+    .family-img {
+        height: 400px;
+    }
+
+    .animated-img {
+        height: 200px !important;
+        width: 150px !important;
+        top: 45%;
+    }
+
+    .family-content {
+        height: auto;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .family-box {
+        width: 350px;
+        height: 300px;
+    }
+
+    .family-rating span {
+        font-size: 1.4rem;
+    }
+
+    .family-rating p {
+        font-size: 0.8rem !important;
+    }
+
+    .family-content h1{
+        font-size: 1.5rem ;
+    }
+
+    .family-content p{
+        font-size: 0.9rem;
+    }
+
+
+    /* our services */
+
+    .our-content {
+        margin-bottom: 15px;
+    }
+
+    .our-s-container h1{
+        font-size: 1.5rem;
+    }
+
+    .our-content h3{
+        font-size: 1.4rem !important;
+    }
+    
+    .our-content p{
+        font-size: 0.9rem   ;
+    }
+
+    .our-content button{
+        font-size: 0.8rem;
+        width: 120px;
+        height: 40px;
+    }
+
+
+    /* dentist our */
+
+    .dentists-content {
+        box-shadow: 0px 0px 10px #3333333e;
+    }
+
+    .dentists-content {
+        margin-bottom: 20px;
+    }
+
+    .dentists-h h1{
+        font-size: 1.5rem;
+    }
+
+    .dentists-content img{
+        width: 180px;
+    }
+
+    .dentists-content h3{
+        font-size: 1.4rem !important;
+    }
+
+    .dentists-content span{
+        font-size: 0.9rem;
+    }
+
+    .dentists-content a{
+        padding: 12px;
+    }
+
+    /* our gallery  */
+
+    .gallery-mar {
+        margin-bottom: 20px;
+    }
+
+    .res-bl {
+        display: none !important;
+    }
+
+    .gallery-h h1{
+        font-size: 1.5rem;
+    }
+
+
+    /* testimonials section */
+
+    .testimonials-box2{
+        height: 250px;
+        text-align: center;
+    }
+
+    .testimonials-h h1{
+        font-size: 1.5rem;
+    }
+
+    
+    .testimonials-box{
+        height: 350px;
+    }
+
+    .testimonials-box img{
+        width: 180px;
+    }
+
+    .testimonials-box h3{
+        font-size: 1.4rem;
+    }
+
+    .testimonials-box span{
+        font-size: 0.9rem;
+    }
+
+    .testimonials-box2 span{
+        font-size: 1.1rem;
+    }
+
+    .testimonials-box2 p{
+        font-size: 0.9rem;
+    }
+
+    /* blog section */
+
+    .blog-res-mar{
+        margin-bottom: 20px;
+    }
+
+    .blog-h h1{
+        font-size: 1.5rem;
+    }
+
+    .blog-content h3{
+        font-size: 1.4rem;
+        width: 300px;
+    }
+
+    .blog-content p{
+        font-size: 0.9rem;
+    }
+
+    .blog-content button{
+        font-size: 0.8rem;
+        width: 120px;
+        height: 40px;
+    }
+
+    /* text slide */
+    .slide-content,.text-slide{
+        height: auto;
+    }
+
+    .slide-content img{
+        width: 180px;
+    }
+
+}

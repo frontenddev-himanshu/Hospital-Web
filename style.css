@@ -1,0 +1,619 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofadi+One&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", system-ui;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sofadi One", system-ui;
+}
+
+
+
+/* navbar */
+.nav {
+    overflow-x: hidden;
+    height: 9vh;
+}
+
+.nav-c img {
+    width: 150px;
+}
+
+.nav-links {
+    margin-left: 30px;
+}
+
+.nav-link {
+    color: #094EAB !important;
+    transition: 0.30s ease all;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ff7888 !important;
+}
+
+.nav-pink {
+    color: #ff7888 !important;
+}
+
+.nav-click{
+    display: none;
+}
+
+/* navbar end */
+
+
+
+
+
+/* bg section */
+.bg-section {
+    overflow-x: hidden;
+    height: 80vh;
+    background: url(assest/appointmnet-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.bg-content h3,
+h1 {
+    color: #fff;
+}
+
+.bg-content h1 {
+    font-size: 2.5rem;
+}
+
+.bg-content p {
+    color: #d2d2d2;
+    width: 520px;
+    padding: 20px 0px;
+}
+
+.bg-content .bg-btn button {
+    font-size: 0.9rem;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.appoi-btn {
+    background-color: #ff7888;
+}
+
+.learn-bg {
+    background: transparent;
+    transition: 0.30s ease;
+}
+
+.learn-bg:hover {
+    background-color: #ff7888;
+}
+
+/* bg section end*/
+
+
+
+
+
+/* service section */
+.service {
+    overflow-x: hidden;
+    padding: 80px 0px;
+}
+
+.services-box {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px #3333333e;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.30s all ease;
+}
+
+.services-box:hover {
+    transform: translatey(-5px);
+}
+
+.services-box img {
+    transition: 0.30s all ease;
+}
+
+.services-box:hover img {
+    transform: scale(1.2);
+}
+
+.services-box p {
+    text-align: center;
+    color: #999999;
+    width: 400px;
+}
+
+.services-box h3 {
+    color: #333333;
+}
+
+/* service section end */
+
+
+
+
+
+/* family section */
+
+.family {
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.family-contaioner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.family-img {
+    height: 700px;
+    position: relative;
+}
+
+.family-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.family-content {
+    height: 650px;
+    padding-left: 30px;
+}
+
+.family-content h1 {
+    color: #333333;
+}
+
+.family-p {
+    color: #999999;
+}
+
+.family-box {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 30px #3333333e;
+}
+
+.family-boxx {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.family-border-right {
+    border-bottom: 2px solid #999999;
+    border-right: 2px solid #999999;
+}
+
+.family-border-left {
+    border-left: 2px solid #999999;
+    border-top: 2px solid #999999;
+}
+
+.family-rating {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.family-rating span {
+    color: #333333;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.family-rating p {
+    color: #999999;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.animated-img {
+    position: absolute;
+    height: 300px !important;
+    width: 200px !important;
+    top: 45%;
+    left: 0;
+    animation: up-down infinite 1s linear;
+    animation-direction: alternate;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* family section end */
+
+
+
+
+/* 2nd our services section */
+.our-services {
+    overflow-x: hidden;
+    background: url(assest/top-banner-img/Top-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 40px 0px;
+}
+
+.our-s-container h1 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.our-s-mar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 400px;
+    width: 430px !important;
+    border: 1px solid #999999;
+    box-shadow: 0px 0px 30px #3333333e;
+    border-radius: 10px;
+    transition: 0.30s ease all;
+}
+
+.our-content:hover {
+    background-color: rgba(255, 255, 255, 0.189);
+    backdrop-filter: blur(10px);
+}
+
+.our-content h3 {
+    color: #fff !important;
+}
+
+.our-content p {
+    color: #ffefef;
+    text-align: center
+}
+
+.our-content button {
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.30s ease all;
+}
+
+.our-content button:hover {
+    background-color: #ff7888;
+}
+
+/* 2nd our services section end*/
+
+
+
+
+
+/* dentists section */
+.dentists {
+    overflow-x: hidden;
+    padding: 50px 0px;
+}
+
+.dentists-h h1 {
+    color: #333333 !important;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dentists-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 450px;
+    box-shadow: 0px 0px 30px #3333333e;
+    transition: 0.30s ease all;
+}
+
+.dentists-content:hover {
+    transform: translateY(-5px);
+}
+
+.dentists-content h3 {
+    color: #333333;
+}
+
+.dentists-content span {
+    color: #999999;
+}
+
+.dentists-links a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333333;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 0.30s ease all;
+}
+
+.dentists-links a:hover {
+    color: #ff7888;
+}
+
+.dentists-links {
+    display: flex;
+    gap: 10px;
+}
+
+/* dentists section end */
+
+
+
+
+/* gallery */
+
+.gallery {
+    overflow-x: hidden;
+    height: auto;
+    background: url(assest/gallery/gallery-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+.gallery-img {
+    height: 400px;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery-h {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* gallery  end*/
+
+
+
+
+
+
+/* testimonials section */
+.testimonials {
+    height: auto;
+    padding: 50px 0px;
+    margin: 0;
+}
+
+.testimonials-h h1 {
+    padding-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.testimonials-box {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    box-shadow: 0px 0px 30px #3333333e;
+}
+
+.testimonials-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.testimonials-box2 span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.testimonials-box2 p {
+    color: #999999;
+    padding-left: 20px;
+}
+
+/* testimonials section end */
+
+
+
+
+
+/* blog sevtiom */
+.blog {
+    overflow-x: hidden;
+    padding: 50px 0px;
+}
+
+.blog-h h1 {
+    color: #333333;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.blog-content {
+    background-color: #094EAB
+}
+
+.blog-content h3 {
+    color: #fff !important;
+}
+
+.blog-content p {
+    color: #dadada !important;
+}
+
+.blog-content button {
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.30s ease all;
+}
+
+.blog-content button:hover {
+    background-color: #ff7888;
+}
+
+/* blog sevtiom end */
+
+
+
+
+/* text silde */
+.text-slide {
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    padding-bottom: 50px;
+}
+
+.slide-content {
+    height: fit-content;
+}
+
+.slide-content img {
+    width: 250px;
+}
+
+
+
+
+
+
+/* footer */
+
+footer{
+    overflow-x: hidden;
+    background: #094EAB;
+}
+
+.footer-links {
+    height: 200px;
+}
+
+.footer-links h4 {
+    color: #fff;
+}
+
+.footer-links p{
+    color: #fff;
+}
+
+.footer-links ul{
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-links ul li{
+    color: #fff;
+}
+
+.footer-location {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-location a i{
+    color: #ff7888;
+}
+
+.footer-location a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-location a span{
+    font-size: 0.8rem;
+}
+
+.copyright form h3{
+    color: #fff;
+}
+
+.copyright P{
+    color: #FFF;
+    text-align: center;
+}
+
+.copyright button{
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.30s ease all;
+}
+
+.copyright button:hover{
+    background-color: #ff7888;
+}
+/* footer */
